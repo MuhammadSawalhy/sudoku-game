@@ -33,7 +33,6 @@ def write_board(board, filename):
             f.write("|\n")
             f.write(bars)
             f.write(bars)
-            f.write(dashes)
             if i == 2 or i == 5:
                 f.write(dashes)
         f.write(dashes + "\n\n")
